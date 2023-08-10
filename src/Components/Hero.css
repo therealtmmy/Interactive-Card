@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+label, p {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.Hero {
+    background: url(../interactive-card-details-form-main/interactive-card-details-form-main/images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15em;
+}
+
+
+.cardFront {
+    margin-left: -5em;
+    width: 23em;
+    margin-bottom: 20px;
+}
+
+.cardBack {
+    width: 23em;
+    margin-right: -15em;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 2.5em;
+    margin-top: 5px;
+    margin-bottom: 1.4em;
+    border-radius: 5px;
+    border-color: hsl(270, 3%, 87%);
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    color: hsl(270, 3%, 87%);
+}
+
+.expDate {
+    display: flex;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.cvc {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+    height: 3em;
+    background-color: hsl(278, 68%, 11%);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
