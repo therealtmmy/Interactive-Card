@@ -20,15 +20,44 @@ label, p {
 }
 
 
+.frontCard {
+    margin-bottom: 5em;
+}
+
 .cardFront {
     margin-left: -5em;
     width: 23em;
     margin-bottom: 20px;
 }
 
+.number {
+    font-size: 1.5em;
+    color: white;
+    margin-left: -2em;
+    margin-top: -5em;
+}
+
+.cardSpan {
+    display: flex;
+    gap: 8em;
+    color: white;
+    margin-left: -2.9em;
+    margin-top: -0.2em;
+}
+
+.backCard {
+    margin-bottom: 8.9em; 
+}
+
 .cardBack {
     width: 23em;
     margin-right: -15em;
+}
+
+.CVC {
+    color: white;
+    margin-top: -8.9em;
+    margin-left: 22.5em;
 }
 
 .inputField {
