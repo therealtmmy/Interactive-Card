@@ -19,12 +19,18 @@ label, p {
     gap: 15em;
 }
 
+.cardLogo {
+    margin-left: -3.2em;
+    position: absolute;
+   
+}
 
 .frontCard {
     margin-bottom: 5em;
 }
 
 .cardFront {
+    margin-top: -1em;
     margin-left: -5em;
     width: 23em;
     margin-bottom: 20px;
@@ -38,12 +44,26 @@ label, p {
 }
 
 .cardSpan {
-    display: flex;
-    gap: 8em;
     color: white;
-    margin-left: -2.9em;
+    margin-left: -3.1em;
     margin-top: -0.2em;
+    font-family: 'Space Grotesk', sans-serif;
+     text-align: start;
+    table-layout: fixed;
+    text-transform: uppercase;
+   
 }
+
+.firstTable {
+    width: 16em;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+
+
+.secondTable {
+    width: 1em;
+  }
 
 .backCard {
     margin-bottom: 8.9em; 
@@ -90,6 +110,18 @@ input {
     flex-direction: column;
 }
 
+.expDiv {
+    display: flex;
+}
+
+.expError {
+    color: red;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    font-size: 12px;
+    margin-right: -3.6em;
+}
+
 .cvc {
     display: flex;
     flex-direction: column;
@@ -104,4 +136,25 @@ button {
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+.OnSubmission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    margin-left: 1rem;
+    margin-top: -1em;
+    font-size: 12px;
+}
+
+.nameError {
+    color: red;
+    margin-top: -1em;
+    margin-bottom: 1em;
+    font-size: 14px;
 }
